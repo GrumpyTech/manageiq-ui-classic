@@ -1,4 +1,5 @@
-# ManageIQ::UI::Classic
+Grumpy ManageIQ::UI::Classic
+============================
 
 [![Gem Version](https://badge.fury.io/rb/manageiq-ui-classic.svg)](http://badge.fury.io/rb/manageiq-ui-classic)
 [![Build Status](https://travis-ci.org/ManageIQ/manageiq-ui-classic.svg?branch=master)](https://travis-ci.org/ManageIQ/manageiq-ui-classic)
@@ -12,7 +13,8 @@
 
 ManageIQ UI Classic is the UI that has been split out of the main [manageiq repo](https://github.com/ManageIQ/manageiq).
 
-## Development Setup
+Development Setup
+-----------------
 
 Go to the directory where you have the clone of your 'manageiq' repo.
 
@@ -28,6 +30,7 @@ At this point you are ready and can start doing PRs against any of the 2 repos.
 
 Or you can get more detailed instructions in [ManageIQ/guides](https://github.com/ManageIQ/guides/blob/master/developer_setup/plugins.md).
 
-## License
+License
+-------
 
 The gem is available as open source under the terms of the [Apache License 2.0](https://opensource.org/licenses/apache-2.0).
