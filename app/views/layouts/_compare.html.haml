@@ -30,9 +30,4 @@
 
 - unless @explorer
   #buttons{:align => 'right'}
-    = link_to(_('Cancel'),
-              {:action => 'compare_cancel'},
-               :class  => 'btn btn-default',
-               :alt    => t = _('Cancel'),
-               :title  => t,
-               :method => :post)
+    = link_to(_('Cancel'), {:action => 'compare_cancel'}, :class  => 'btn btn-default', :alt    => t = _('Cancel'), :title  => t, :method => :post)
