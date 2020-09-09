@@ -17,7 +17,7 @@ class GtlFormatter
   }.freeze
 
   NORMALIZED_STATE_ICON = {
-    'archived'                  => 'fa fa-archive',
+    'archived' => 'fa fa-archive',
     'orphaned'                  => 'ff ff-orphaned',
     'retired'                   => 'fa fa-clock-o',
     'suspended'                 => 'pficon pficon-asleep',
