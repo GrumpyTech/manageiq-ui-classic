@@ -91,11 +91,11 @@ class GtlFormatter
         # Generate html for the list icon
         icon, icon2, image = send(COLUMN_WITH_IMAGE[col], record)
         text = format_col_for_display(view, row, col)
-        item = {:title => text,
-                :image => ActionController::Base.helpers.image_path(image.to_s),
-                :icon  => icon,
-                :icon2 => icon2,
-                :text  => text}.compact
+        item = {:title  =>  text,
+                :image  =>  ActionController::Base.helpers.image_path(image.to_s),
+                :icon   =>  icon,
+                :icon2  =>  icon2,
+                :text   =>  text}.compact
       elsif COLUMN_WITH_ICON.keys.include?(col)
         # Generate html for the list icon
         icon = send(COLUMN_WITH_ICON[col], record)
